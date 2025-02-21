@@ -1,0 +1,2 @@
+selenium==4.4.0
+fuzzywuzzy==0.18.0
