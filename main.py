@@ -10,8 +10,8 @@ from fuzzywuzzy import process
 import logging
 
 # 账户名和密码，自己填写
-username = "34520242200990"
-passwd = "Cgs761028!"
+username = ""
+passwd = ""
 
 logging.basicConfig(
     format="%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s",
