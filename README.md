@@ -9,6 +9,6 @@
 
 ## 然后进入课程界面
 
-比如这样的界面![correct_page](D:\Scripts\XMUCourseFile\README.assets\correct_page.png)
+比如这样的界面![correct_page](./README.assets/correct_page.png)
 
 然后按下任意键继续，就会开始下载了
