@@ -1,14 +1,32 @@
 # XMUCourseFile
-~~懒得~~太复杂了研究XMU的登录及一系列教务系统的api，内部整的很复杂，反正能用就行，于是就想了一个~~效率很低的~~办法，就是selenium4直接模拟然后把所有的内容打开一下，然后捕捉特定特征的东西然后下载就好了
+终于研究了一下教务系统里面的API，最终做成了这一版的东西，现在用起来可以极为方便了，基本就是开箱即用
 
-中间的延时是我调了很多次的，执行效率低就低吧，能抓全就好
+## 使用教程
 
-## 先登录
+不关心代码可以直接去Release里面下载最新版的东西
 
-会提示你要登录，登录完之后回到终端按下任意键
+这个下载需要验证你的身份信息，如果介意请勿使用
 
-## 然后进入课程界面
+![image-20250316212631312](D:\Scripts\XMUCourseFile\README.assets\image-20250316212631312.png)
 
-比如这样的界面![correct_page](./README.assets/correct_page.png)
+第一个是课程的链接，可以打开其中之一界面，在脚本中只是检验了链接必须以：https://lnt.xmu.edu.cn/course开头即可
 
-然后按下任意键继续，就会开始下载了
+以下的两个照片显示了两种可以使用的链接：
+
+![image-20250316212836637](D:\Scripts\XMUCourseFile\README.assets\image-20250316212836637.png)
+
+![image-20250316213038373](D:\Scripts\XMUCourseFile\README.assets\image-20250316213038373.png)
+
+复制链接并输入后就会进入下一步
+
+![image-20250316213126773](D:\Scripts\XMUCourseFile\README.assets\image-20250316213126773.png)
+
+可以就在课程停留的界面先按下F12，然后进入控制台或者Console，输入js并按下回车即可
+
+然后就会输出一行把这一行复制并输入即可
+
+![image-20250316213717338](D:\Scripts\XMUCourseFile\README.assets\image-20250316213717338.png)
+
+![image-20250316213359266](D:\Scripts\XMUCourseFile\README.assets\image-20250316213359266.png)
+
+然后下载就自动开始了，在download文件夹下即可看到所有下载内容了

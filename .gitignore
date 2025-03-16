@@ -161,3 +161,4 @@ cython_debug/
 main.exe
 download_chromedriver.exe
 *.zip
+/download
