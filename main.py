@@ -21,10 +21,7 @@ def download(url: str, fname: str):
 def while_get(url):
     ret = None
     while True:
-        ret = r.get(
-            url,
-            cookies={"session": session},
-        )
+        ret = r.get(url, cookies={"session": session})
         if ret.ok:
             break
         else:
